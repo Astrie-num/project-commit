@@ -1,8 +1,8 @@
 import os
 from datetime import datetime, timedelta
 
-# Set the start date to January 1st of two years from now
-start_year = datetime.now().year + 2
+# Set the start date to January 1st of last year
+start_year = datetime.now().year - 3  # Change if you want a different year
 start_date = datetime(start_year, 1, 1)
 
 # Number of days in the year
